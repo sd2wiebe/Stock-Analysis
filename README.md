@@ -22,7 +22,7 @@ The average return for 2018 across all of our stocks was a tough -8.5%. It was a
 ### Code performance
 In order to measure code performance, I used a code that measured the time it takes to execute the code by putting
 ```startTime = Timer ``` at the start of the VBA code, and ```endtime = Timer ``` at the end. Then in order display the runtime I used a ```MsgBox``` and displayed ```endTime - startTime```. Initially the code I had used to create the summary tables for [2017](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_initial_code_2017.png) and [2018](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_initial_code_2018.png) had a runtime of over 2 seconds each. 
-
+After refactoring the code to loop through the data only once, I saw a more efficient performance, with both codes for [2017](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_2017.png) and [2018](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_initial_code_2018.png) running in less than .4 seconds.
 
 
 
