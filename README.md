@@ -24,6 +24,15 @@ In order to measure code performance, I used a code that measured the time it ta
 ```startTime = Timer ``` at the start of the VBA code, and ```endtime = Timer ``` at the end. Then in order display the runtime I used a ```MsgBox``` and displayed ```endTime - startTime```. Initially the code I had used to create the summary tables for [2017](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_initial_code_2017.png) and [2018](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_initial_code_2018.png) had a runtime of over 2 seconds each. 
 After refactoring the code to loop through the data only once, I saw a more efficient performance, with both codes for [2017](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_2017.png) and [2018](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_2018.png) running in less than .4 seconds. In order to achieve this substantially more efficient code, I utilized multiple arrays. Each array stored values for total volume, opening price, and closing price respectively. This way we only had to loop through the data once, and then output the values stored in the arrays for each stock.
 
+## Results
+### DQ Stock
+After reviewing the analysis of DQ's performace over 2017-2018, we can safely conclude that it does not look like the best green energy stock to invest in at this point. DQ showed a substantial return in 2017, however since then its been trending negatively, with a -62.6% return over 2018.
+### Refactored code
+There are numerous benefits to refactoring code. A code can be refactored to be more easily understood, and thus easier to debug, or to make modifications to upon revisiting. A well designed code will also be easier to maintain and enhance. When the code design is improved, it can make the program run more efficiently as well.
+Some disadvantages to refactoring code includes the time investment. Sometimes it might be easier to re-write a more efficient, well designed code from scratch, rather than spend an exorbitant amount of time trying to refactoran existing code. Another factor that might make you rethink refactoring a code would be cost associated.
+
+There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
+
 
 
 
