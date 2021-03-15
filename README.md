@@ -17,6 +17,7 @@ For 2018, it was quite of different story for our green energy stocks. As we can
 
 ![alttext](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/2018_Performance.png)
 </p>
-
+The average return for 2018 across all of our stocks was a tough -8.5%. It was a particularly tough year for DQ, with a deprecate return of -62.6%. 
 ### Code/Execution
+
 
