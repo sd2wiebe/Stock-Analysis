@@ -18,6 +18,14 @@ For 2018, it was quite of different story for our green energy stocks. As we can
 ![alttext](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/2018_Performance.png)
 </p>
 The average return for 2018 across all of our stocks was a tough -8.5%. It was a particularly tough year for DQ, with a deprecate return of -62.6%. 
-### Code/Execution
+
+### Code performance
+In order to measure code performance, I used a code that measured the time it takes to execute the code by putting
+```startTime = Timer ``` at the start of the VBA code, and ```endtime = Timer ``` at the end. Then in order display the runtime I used a ```MsgBox```. 
+Initially the code I had used to create the summary tables for [2017](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_initial_code_2017.png) and [2018](https://github.com/sd2wiebe/Stock-Analysis/blob/main/Resources/VBA_Challenge_initial_code_2018.png) had a runtime of over 2 seconds each.
+
+
+
+
 
 
